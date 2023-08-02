@@ -1,0 +1,50 @@
+.header {
+	background-color: transparent;
+	width: 100%;
+}
+
+.header__container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: auto;
+	padding: 1.125rem 7rem 0;
+}
+
+.container__inicio {
+	font-weight: 600;
+	font-size: 1.0625em;
+	transition-property: opacity;
+	transition-duration: 0.15s;
+	transition-timing-function: ease;
+	opacity: 1;
+}
+
+.container__inicio:hover {
+	opacity: 0.6;
+}
+
+.container__goChat {
+	border: hsla(0, 0%, 93%);
+	padding: 5px 12px;
+	border-radius: 0.375rem;
+	background: hsla(0, 0%, 93%);
+	color: #0a0a0a;
+	font-weight: 600;
+	font-size: 1.0625em;
+	transition-property: background, color;
+	transition-duration: 0.15s;
+	transition-timing-function: ease;
+}
+
+.container__goChat:hover {
+	background: hsla(0, 0%, 73%);
+	color: opacity(0.2);
+}
+
+@media screen and (max-width: 1270px) {
+	.header__container {
+		padding: 1.125rem 2rem 0;
+	}
+}
