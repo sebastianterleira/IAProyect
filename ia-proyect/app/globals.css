@@ -99,11 +99,11 @@ blockquote:before, blockquote:after, q:before, q:after {
 
 /* Configuramos el texto que seleccionamos */
 ::-moz-selection {
-  background-color: var(--negro);
+  background-color: #f81ce5;
   color: var(--blanco);
 }
 ::selection {
-  background-color: var(--negro);
+  background-color:#f81ce5;
   color: var(--blanco);
 }
 
