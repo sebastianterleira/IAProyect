@@ -12,9 +12,9 @@ export default function Navbar() {
 				<div>
 					<Link
 						href={'/chat'}
-						className={`${styles['container__goChat']} ${poppins.className}`}
+						className={`${styles['container__goChat']} ${poppins.className} ${styles.unselected}`}
 					>
-						Go chat
+						Go chat ✨
 					</Link>
 				</div>
 			</div>
