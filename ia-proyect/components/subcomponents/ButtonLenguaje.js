@@ -1,6 +1,6 @@
 'use client';
 import { useState } from 'react';
-import styles from '../styles/Button/Button.module.css';
+import styles from '../../styles/Button/Button.module.css';
 const ButtonLenguaje = () => {
 	const [language, setLanguage] = useState('es');
 	const toggleLanguage = () => {

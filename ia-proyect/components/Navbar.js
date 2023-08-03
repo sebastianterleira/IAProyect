@@ -1,7 +1,7 @@
 import styles from '../styles/Navbar/Navbar.module.css';
 import Link from 'next/link';
 import { poppins } from '../styles/fonts';
-import ButtonLenguaje from './ButtonLenguaje';
+import ButtonLenguaje from './subcomponents/ButtonLenguaje';
 
 export default function Navbar() {
 	return (
