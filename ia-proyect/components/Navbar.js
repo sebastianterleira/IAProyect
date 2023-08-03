@@ -11,7 +11,7 @@ export default function Navbar() {
 					href={'/'}
 					className={`${styles['container__inicio']} ${poppins.className}`}
 				>
-					Inicio
+					Home
 				</Link>
 				<div className={styles['subContainer']}>
 					<ButtonLenguaje />
