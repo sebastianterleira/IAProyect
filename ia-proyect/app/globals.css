@@ -191,8 +191,7 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-html,
-body {
+html {
 	overflow-x: hidden;
 }
 
