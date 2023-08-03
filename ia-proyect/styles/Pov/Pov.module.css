@@ -1,0 +1,29 @@
+.title {
+	background-image: linear-gradient(180deg, #fff, #adadad);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 800;
+	font-size: max(3em, min(5vw, 4.75em));
+	line-height: 1;
+	letter-spacing: -0.05em;
+	padding: 1.5rem;
+	position: relative;
+}
+
+.title::selection {
+	-webkit-text-fill-color: #fff !important;
+}
+
+.container {
+	color: #888;
+	font-size: max(15px, min(2vw, 20px));
+	line-height: 1.8;
+	letter-spacing: -0.01em;
+	font-weight: 400;
+	position: relative;
+	padding: 40px 32px;
+	background: #000;
+	z-index: 1;
+	width: calc(100% - 1px * 2);
+	left: 1px;
+}
