@@ -1,7 +1,7 @@
 'use client';
 import { useState } from 'react';
 import styles from '../styles/Button/Button.module.css';
-const Button = () => {
+const ButtonLenguaje = () => {
 	const [language, setLanguage] = useState('es');
 	const toggleLanguage = () => {
 		setLanguage(language === 'es' ? 'en' : 'es');
@@ -18,4 +18,4 @@ const Button = () => {
 	);
 };
 
-export default Button;
+export default ButtonLenguaje;

@@ -1,7 +1,7 @@
 import styles from '../styles/Navbar/Navbar.module.css';
 import Link from 'next/link';
 import { poppins } from '../styles/fonts';
-import Button from './Button';
+import ButtonLenguaje from './ButtonLenguaje';
 
 export default function Navbar() {
 	return (
@@ -14,7 +14,7 @@ export default function Navbar() {
 					Inicio
 				</Link>
 				<div className={styles['subContainer']}>
-					<Button />
+					<ButtonLenguaje />
 					<Link
 						href={'/chat'}
 						className={`${styles['container__goChat']} ${poppins.className} ${styles.unselected}`}
