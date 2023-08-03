@@ -50,6 +50,11 @@
   user-select: none;
 }
 
+.subContainer {
+	display: flex;
+	gap: 2rem;
+}
+
 @media screen and (max-width: 1270px) {
 	.header__container {
 		padding: 1.125rem 2rem 0;
