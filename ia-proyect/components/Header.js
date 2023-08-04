@@ -19,16 +19,12 @@ export default function Header({ handleClick }) {
 					Home
 				</Link>
 				<div className={styles['subContainer']}>
-
 					<ButtonLanguage onClick={toggleView} />
-
-					
-
 					<Link
 						href={'/chat'}
 						className={`${styles['container__goChat']} ${styles.unselected}`}
 					>
-						Go chat ✨
+						Go TalkSavvy ✨
 					</Link>
 				</div>
 			</div>
