@@ -2,7 +2,7 @@
 import Pov from '@/components/Pov';
 import Navbar from '../components/Navbar';
 import styles from '../styles/Home/page.module.css';
-import Button from '@/components/Button';
+import ExampleIA from '@/components/subcomponents/ExampleIA';
 
 
 export default function Home() {
@@ -11,9 +11,8 @@ export default function Home() {
 		<>
 			<Navbar />
 			<main className={styles.main}>
-				<Button />
-				
 				<Pov />
+				<ExampleIA />
 			</main>
 		</>
 	);
