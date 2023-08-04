@@ -13,6 +13,7 @@
 }
 
 .container__inicio {
+	color: #ececec;
 	font-weight: 600;
 	font-size: 1.0625em;
 	transition-property: opacity;
@@ -27,7 +28,7 @@
 
 .container__goChat {
 	border: hsla(0, 0%, 93%);
-	padding: .3125rem .75rem;
+	padding: 0.3125rem 0.75rem;
 	border-radius: 0.375rem;
 	background: hsla(0, 0%, 93%);
 	color: #0a0a0a;
@@ -44,10 +45,10 @@
 }
 
 .unselected {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 .subContainer {
