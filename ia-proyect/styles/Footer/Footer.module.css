@@ -1,29 +1,31 @@
-.header {
-	background-color: transparent;
-	width: 100%;
-}
-
-.header__container {
+.container {
 	display: flex;
+	flex-direction: column;
 	align-items: center;
-	justify-content: space-between;
 	width: 100%;
-	height: auto;
-	padding: 1.725rem 7rem 0;
+	background-color: transparent;
+	padding: 0 1.5rem 2.5rem 1.5rem;
 }
 
-.container__inicio {
+.container__title {
+	background-image: linear-gradient(180deg, #fff, #adadad);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 800;
+	font-size: max(1.8em, min(5vw, 2em));
+	line-height: 1;
+	letter-spacing: -0.05em;
+	padding: 1.5rem;
+	position: relative;
+}
+
+.container__title::selection {
+	-webkit-text-fill-color: #fff !important;
+}
+
+.container__text {
 	color: #ececec;
-	font-weight: 600;
-	font-size: 1.0625em;
-	transition-property: opacity;
-	transition-duration: 0.15s;
-	transition-timing-function: ease;
-	opacity: 1;
-}
-
-.container__inicio:hover {
-	opacity: 0.6;
+	padding-bottom: 1rem;
 }
 
 .container__goChat {
@@ -49,15 +51,4 @@
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-}
-
-.subContainer {
-	display: flex;
-	gap: 2rem;
-}
-
-@media screen and (max-width: 1270px) {
-	.header__container {
-		padding: 1.125rem 2rem 0;
-	}
 }

@@ -2,7 +2,7 @@ import styles from '../styles/Navbar/Navbar.module.css';
 import Link from 'next/link';
 import ButtonLanguage from './ButtonLanguage';
 
-export default function Navbar() {
+export default function Header() {
 	return (
 		<header className={styles.header}>
 			<div className={styles['header__container']}>
