@@ -17,7 +17,7 @@ const PovEs = () => {
 			<div className={styles.container}>
 				<p className={styles['container__subtitle']}>
 					Hola! Soy tu asistente personal de IA, estoy aqui para ayudarte
-					a practicar Ingles y prepararte para tus entrevistas.Juntos, mejoraremos tus habilidades
+					a practicar Ingles y prepararte para tus entrevistas. Juntos, mejoraremos tus habilidades
 					y te apoyaré para que alcances tus metas. Vamos a lograrlo juntos!
 				</p>
 			</div>
