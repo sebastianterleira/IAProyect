@@ -1,8 +1,16 @@
+"use client"
 import styles from '../styles/Navbar/Navbar.module.css';
 import Link from 'next/link';
 import ButtonLanguage from './ButtonLanguage';
-
-export default function Navbar() {
+import { useState } from 'react';
+export default function Navbar({ handleClick }) {
+	const [showView, setShowView] = useState(false);
+	
+	const toggleView = () => {
+		setShowView(!showView);
+		handleClick();
+		console.log(showView);
+	}
 	return (
 		<header className={styles.header}>
 			<div className={styles['header__container']}>
@@ -10,7 +18,7 @@ export default function Navbar() {
 					Home
 				</Link>
 				<div className={styles['subContainer']}>
-					<ButtonLanguage />
+					<ButtonLanguage onClick={toggleView} />
 					<Link
 						href={'/chat'}
 						className={`${styles['container__goChat']} ${styles.unselected}`}
