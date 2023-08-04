@@ -1,11 +1,9 @@
 import styles from '../styles/Pov/Pov.module.css';
 import { BsArrowRightCircle } from 'react-icons/bs';
 
-
-
 const Pov = () => {
 	return (
-		<>
+		<section className={styles.center}>
 			<div className={styles.button}>
 				<a
 					href={'https://github.com/sebastianterleira/IAProyect'}
@@ -24,7 +22,7 @@ const Pov = () => {
 					your goals. Let&apos;s make it together!
 				</p>
 			</div>
-		</>
+		</section>
 	);
 };
 export default Pov;
