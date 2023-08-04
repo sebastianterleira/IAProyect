@@ -1,6 +1,6 @@
 import styles from '../styles/Navbar/Navbar.module.css';
 import Link from 'next/link';
-import ButtonLenguaje from './subcomponents/ButtonLenguaje';
+import ButtonLanguage from './ButtonLanguage';
 
 export default function Navbar() {
 	return (
@@ -10,7 +10,7 @@ export default function Navbar() {
 					Home
 				</Link>
 				<div className={styles['subContainer']}>
-					<ButtonLenguaje />
+					<ButtonLanguage />
 					<Link
 						href={'/chat'}
 						className={`${styles['container__goChat']} ${styles.unselected}`}

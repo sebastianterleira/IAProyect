@@ -20,11 +20,13 @@
     "flag-icon-css": "^4.1.7",
     "formik": "^2.4.2",
     "google-translate-api": "^2.3.0",
+    "i18next": "^23.4.1",
     "next": "13.4.12",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-flag-kit": "^1.1.1",
     "react-flagkit": "^2.0.4",
+    "react-i18next": "^13.0.3",
     "react-icons": "^4.10.1"
   }
 }
