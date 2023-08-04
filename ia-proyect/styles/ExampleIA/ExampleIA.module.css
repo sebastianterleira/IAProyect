@@ -58,4 +58,9 @@
 
 .MessageIcon {
 	font-size: 1.55em;
+	color: #ececec;
+}
+
+.content__column {
+	color: #ececec;
 }

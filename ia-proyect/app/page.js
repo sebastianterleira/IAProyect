@@ -23,7 +23,9 @@ export default function Home() {
 				{showView ? <PovEs /> : <Pov />}
 				{showView ? <ExampleIAEs /> : <ExampleIA />}
 				
+
 			</main>
+			<Footer />
 		</>
 	);
 }
