@@ -1,7 +1,7 @@
 "use client"
 import Pov from '@/components/Pov';
 import PovEs from '@/components/PovEs';
-import Navbar from '../components/Navbar';
+import Header from '../components/Header';
 import styles from '../styles/Home/page.module.css';
 import ExampleIA from '@/components/subcomponents/ExampleIA';
 import { useState } from 'react';
@@ -17,7 +17,7 @@ export default function Home() {
 	}
 	return (
 		<>
-			<Navbar handleClick={toggleView}/>
+			<Header handleClick={toggleView}/>
 			<main className={styles.main}>
 				
 				{showView ? <PovEs /> : <Pov />}
