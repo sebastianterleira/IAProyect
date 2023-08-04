@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { FlagIcon } from 'react-flag-kit';
 
 const Flags = ({ country }) => {

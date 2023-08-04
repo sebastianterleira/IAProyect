@@ -3,7 +3,7 @@ import Pov from '@/components/Pov';
 import Navbar from '../components/Navbar';
 import styles from '../styles/Home/page.module.css';
 import Button from '@/components/Button';
-import Flag from 'react-flagkit';
+
 
 export default function Home() {
 	
