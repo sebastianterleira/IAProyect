@@ -22,7 +22,7 @@ export default function Header({ handleClick }) {
 
 					<ButtonLanguage onClick={toggleView} />
 
-					<ButtonLanguage />
+					
 
 					<Link
 						href={'/chat'}
