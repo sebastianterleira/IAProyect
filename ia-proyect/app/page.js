@@ -1,19 +1,15 @@
 
 import Pov from '@/components/Pov';
-import Navbar from '../components/Navbar';
+import Header from '../components/Header';
 import styles from '../styles/Home/page.module.css';
 import ExampleIA from '@/components/subcomponents/ExampleIA';
 
-
-
 export default function Home() {
-	
 	return (
 		<>
-			<Navbar />
+			<Header />
 			<main className={styles.main}>
 				<Pov />
-				
 				<ExampleIA />
 			</main>
 		</>
