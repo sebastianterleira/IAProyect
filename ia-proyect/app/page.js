@@ -6,7 +6,7 @@ import styles from '../styles/Home/page.module.css';
 import ExampleIA from '@/components/subcomponents/ExampleIA';
 import { useState } from 'react';
 import ExampleIAEs from '@/components/subcomponents/ExampleIAEs';
-
+import Footer from '@/components/Footer';
 
 export default function Home() {
 	const [showView, setShowView] = useState(false);
