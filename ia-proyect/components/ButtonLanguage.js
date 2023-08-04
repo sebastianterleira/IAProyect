@@ -1,8 +1,8 @@
  "use client"
  import { useState } from "react";
- import styles from '../styles/Button/Button.module.css';
+ import styles from '../styles/Button/ButtonLanguage.module.css';
  import Flags from "./Flags";
- const Button = () => {
+ const ButtonLanguage = () => {
     const [language, setLanguage] = useState('es');
     const toggleLanguage = () => {
         setLanguage(language === 'es' ? 'en' : 'es');
@@ -17,11 +17,11 @@
           ) : (
                 <Flags country="US" />
           )}
-            {language === 'es' ? 'Español' : 'English'}
+            {/* {language === 'es' ? 'Español' : 'English'} */}
         </button>
     )
 };
 
 
 
-export default Button
+export default ButtonLanguage
